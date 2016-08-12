@@ -1,5 +1,5 @@
 # LRS_Sync
-Small Python program that syncs statements between two LRSs.
+Small Python program that syncs xapi (tincan api) statements between two Learning Record Stores.
 
 Requires [TinCanPython](https://github.com/RusticiSoftware/TinCanPython):
 
