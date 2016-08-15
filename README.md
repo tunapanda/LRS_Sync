@@ -5,6 +5,10 @@ Requires [TinCanPython](https://github.com/RusticiSoftware/TinCanPython):
 
 **pip install tincan**
 
-Currently only allows pushing of statements from one LRS (local) to another (remote). Will check for existing statements to avoid duplicates.
+LRS_Sync can sync statements between multiple LRSs. LRS_Sync.py will push statements from a local LRS to a remote LRS (while avoiding duplicates.)
 
-Add LRS authentication information to LRS_config_template.py and rename to LRS_config.py and run LRS_Sync.py
+For servers with limited internet access, LRS_Save.py can store all statements in a json file. That file can then be uploaded from another machinge using LRS_Upload.py.
+
+Add LRS authentication information, filenames, etc. to LRS_config_template.py and rename to LRS_config.py to run the syncing programs.
+
+Has only been tested with LearningLocker.
