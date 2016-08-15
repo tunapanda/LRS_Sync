@@ -21,3 +21,12 @@ remote_lrs_credentials = {
 
 #Optional - only collect statements from local LRS if created in local LRS after date (YYYY-MM-DD):
 #date = "2015-01-01"
+
+#Optional - only collect statements from local LRS if created in local LRS after date (YYYY-MM-DD):
+#date = "2015-01-01"
+
+#If using LRS_Save.py or LRS_Upload.py, choose the filename to write the statements to.
+writefile = "localLRSstatements.json"
+
+#If exporting statements to LRS from file, indicate the filename to read from.
+readfile = "localLRSstatements.json"
