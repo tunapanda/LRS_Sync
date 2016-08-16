@@ -99,7 +99,8 @@ def store_statements(local_statements, remote_statement_ids, remote_lrs):
     print "\nDone! %i statements saved.\n" %(saved_staments)
 
 if __name__ == "__main__":
-    local_lrs, remote_lrs, lc, rc = collect_lrs_credentials()
+    local_lrs, lc = collect_local_lrs_credentials()
+    remote_lrs, rc = collect_remote_lrs_credentials()
     remote_statement_ids = collect_remote_statements(remote_lrs)
     local_statements = collect_local_statements(local_lrs)
     store_statements(local_statements, remote_statement_ids, remote_lrs)
