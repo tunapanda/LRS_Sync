@@ -7,15 +7,15 @@ Enter the correct information for the LRS below and run LRS_Sync.py to push stat
 
 # Source of statements
 local_lrs_credentials = {
-"endpoint":"<enterLRSendpoint>"
-"username":"<enterLRSusername>"
+"endpoint":"<enterLRSendpoint>",
+"username":"<enterLRSusername>",
 "password":"<enterLRSpassword>"
 }
 
 #Destination of statements
 remote_lrs_credentials = {
-"endpoint":"<enterLRSendpoint>"
-"username":"<enterLRSusername>"
+"endpoint":"<enterLRSendpoint>",
+"username":"<enterLRSusername>",
 "password":"<enterLRSpassword>"
 }
 
