@@ -20,5 +20,5 @@ if __name__ == "__main__":
 
     remote_lrs, rc = collect_remote_lrs_credentials()
     statements = import_statements_from_file(filename)
-    remote_statement_ids = collect_remote_statements(remote_lrs)
+    remote_statement_ids = collect_remote_statements(remote_lrs, rc)
     store_statements(statements, remote_statement_ids, remote_lrs)

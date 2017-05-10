@@ -17,11 +17,11 @@ if __name__ == "__main__":
 
     if os.path.isfile(filename):
         if raw_input("Are you sure you want to overwrite %s? (y/n)" %(filename)) not in ('y','Y','yes','Yes'):
-            print "\nAborting. You can change the name of the file to be written in LRS_config.py\n"
+            print ("\nAborting. You can change the name of the file to be written in LRS_config.py\n")
             sys.exit()
 
     local_lrs, lc = collect_local_lrs_credentials()
 
-    local_statements = collect_local_statements(local_lrs)
+    local_statements = collect_local_statements(local_lrs, lc)
 
     statementsToFile(filename, local_statements)

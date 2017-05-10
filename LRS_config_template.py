@@ -7,16 +7,22 @@ Enter the correct information for the LRS below and run LRS_Sync.py to push stat
 
 # Source of statements
 local_lrs_credentials = {
-"endpoint":"<enterLRSendpoint>",
-"username":"<enterLRSusername>",
-"password":"<enterLRSpassword>"
+"endpoint":"<insert LRS endpoint here>",
+"username":"<insert LRS user/client here>",
+"password":"<insert LRS password here>",
+
+# For Wordpress LRS change "learninglocker" to "wordpress"
+"LRS":"learninglocker"
 }
 
 #Destination of statements
 remote_lrs_credentials = {
-"endpoint":"<enterLRSendpoint>",
-"username":"<enterLRSusername>",
-"password":"<enterLRSpassword>"
+"endpoint":"<insert LRS endpoint here>",
+"username":"<insert LRS user/client here>",
+"password":"<insert LRS password here>",
+
+# For Wordpress LRS change "learninglocker" to "wordpress"
+"LRS":"learninglocker"
 }
 
 #Optional - only collect statements from local LRS if created in local LRS after date (YYYY-MM-DD):
